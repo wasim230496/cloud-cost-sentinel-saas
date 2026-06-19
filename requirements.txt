@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+boto3
+redis
+celery
+psycopg[binary]
+pydantic
+
