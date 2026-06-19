@@ -5,4 +5,5 @@ redis
 celery
 psycopg[binary]
 pydantic
+email-validator
 
