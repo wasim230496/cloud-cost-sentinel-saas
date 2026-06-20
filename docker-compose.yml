@@ -10,3 +10,11 @@ services:
     volumes:
       - "/var/run/docker.sock:/var/run/docker.sock"
     restart: always
+
+ # ADDING REDIS TASK BROKER FOR CELERY
+  redis_broker:
+    container_name: redis_task_broker
+    image: redis:alpine
+    ports:
+      - "6379:6379"
+    restart: always
